@@ -5,6 +5,7 @@ import { DashboardRoutes } from './dashboard';
 import { CalculadoraRoutes } from './calculadora';
 import { ConversorRoutes } from './conversor';
 import { TarefasRoutes } from './tarefas';
+import { JogoDaVelhaRoutes } from './jogo-da-velha';
 
 const routes: Routes = [
   {
@@ -16,6 +17,7 @@ const routes: Routes = [
   ...CalculadoraRoutes,
   ...ConversorRoutes,
   ...TarefasRoutes,
+  ...JogoDaVelhaRoutes,
 ];
 
 @NgModule({
